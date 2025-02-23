@@ -67,6 +67,7 @@ stages:
           - modules/160-utilities.yml
           - modules/210-libs-extra.yml
           - modules/300-hide-image-magick.yml
+          - modules/900-kernel.yml
           - modules/997-ensure-exec-hooks.yml
           - modules/998-vanilla-cleanup.yml
           - modules/999-pkg-cleanup.yml
