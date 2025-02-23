@@ -10,4 +10,4 @@ modules:
 - name: remove-prev-kernel
   type: shell
   commands:
-  - apt remove linux-image-amd64
+  - apt remove linux-image-amd64 -y
