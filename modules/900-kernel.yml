@@ -1,13 +1,6 @@
-name: apx
+name: liquoriz
 type: shell
-source:
-  type: file
-  url: https://liquorix.net/install-liquorix.sh
-  checksum: 9e43832190ed78a5c6bee5b19b30412aaa137a9cee302338c8abbc9480ac2a3f
 commands:
-- bash /sources/liquorix/install-liquorix.sh
-modules:
-- name: remove-prev-kernel
-  type: shell
-  commands:
-  - apt remove linux-image-amd64 -y
+- wget https://liquorix.net/install-liquorix.sh
+- bash install-liquorix.sh
+- apt remove linux-image-amd64 -y
