@@ -1,6 +1,0 @@
-name: liquoriz
-type: shell
-commands:
-- wget https://liquorix.net/install-liquorix.sh
-- bash install-liquorix.sh
-- apt remove linux-image-amd64 -y
