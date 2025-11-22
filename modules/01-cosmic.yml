@@ -8,3 +8,8 @@ modules:
     source:
       packages:
       - jq
+  - name: cosmic-greeter-wakefix
+    type: shell
+    commands:
+    - mkdir -p /etc/systemd/system/local-fs.target.wants/
+    - ln -s /usr/lib/systemd/system/cosmic-greeter-wakefix.service /etc/systemd/system/local-fs.target.wants/

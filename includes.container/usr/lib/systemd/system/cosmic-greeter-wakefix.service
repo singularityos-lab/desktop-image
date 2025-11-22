@@ -1,0 +1,10 @@
+[Unit]
+Description=Fix Cosmic Greeter after suspend
+After=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl restart cosmic-greeter
+
+[Install]
+WantedBy=suspend.target
