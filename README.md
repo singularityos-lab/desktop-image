@@ -1,3 +1,5 @@
+# This image DOES NOT include the new Singularity Desktop. Please be patient.
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/singularityos-lab/brand/refs/heads/main/Icon.png" height="120">
   <h1 align="center">Singularity OS Desktop</h1>
